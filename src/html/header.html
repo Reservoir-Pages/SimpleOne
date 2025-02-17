@@ -1,0 +1,20 @@
+<header class="header">
+	<div class="header__container container js-main-header">
+		<a href="#" class="header__logo">
+			<img class="header__logo-img" src="@images/logo.svg" alt="Логотип" />
+		</a>
+		@include("./search.html", {"class": "header__search", "icon": "search", "name": "search",
+		"aria-label": "искать", "js-class": "js-form-data"})
+		<div class="header__account account">
+			<button class="account__btn btn-reset">
+				<img class="account__btn-photo" src="@images/photo.png" alt="Пользователь" />
+				<span class="account__btn-username">Максим Галактионов</span>
+			</button>
+			<button class="account__settings btn-reset" aria-label="открыть настройки">
+				<svg class="account__settings-icon">
+					<use xlink:href="images/sprite.svg#settings"></use>
+				</svg>
+			</button>
+		</div>
+	</div>
+</header>
