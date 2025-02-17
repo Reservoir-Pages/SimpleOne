@@ -1,3 +1,3 @@
-## Magwai/Dogie-Coin
+## ITGlobal/SimpleOne
 
-[Link to site](https://reservoir-pages.github.io/dogie-coin/ "Сайт размещен на GitHub Pages")
+[Link to site](https://reservoir-pages.github.io/SimpleOne/ "Сайт размещен на GitHub Pages")
